@@ -1,0 +1,25 @@
+Sub Main()
+
+Dim myString = " Go to the folder called 'My  document' on your c:\ drive..."
+
+Dim myString = "go to the folder" &_
+"Called 'my Docs'" & _
+on your c:\" & _
+& "drive"
+
+Dim myString = "my" "so called"  "life"
+Dim my String = ' What if I need" & vbCrLf & "a new line"
+Console.Writeline(MyString)
+Console.ReadLine()
+
+Dim myString= String,Format( "{0}!", "hello)
+Console.WriteLine(myString)
+Console.WriteLine({0}!" , "hello)
+Console.ReadLine()
+
+
+
+
+
+
+End Sub

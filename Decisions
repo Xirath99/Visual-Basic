@@ -1,0 +1,62 @@
+
+Console.Writeline ( "Please type something and press Enter")
+Dim userValue As String
+
+userValue = Console. ReadLine()
+Console.WriteLine ( "You typed: ' & userValue
+Console.ReadLine()
+
+Console.WriteLine("Would you Prefer what is behind door number 1,2 or 3?)
+
+Dim userValue As String = Console.Readline()
+
+If userValue = "1" Then
+Console.WriteLine(You on a new car!)
+Console.Readline()
+
+ElseIf userValue = "2" Then
+Console.WriteLine("You Won A New BoAt")
+Console.ReadLine
+
+
+ElseIf userValue = "3" Then
+Console.writeLine(You won a cat")
+Console.ReadLine()
+
+Else 
+Console.WriteLine("Sorry we did not understand your responce, you lose")
+Console.ReadLine()
+
+
+
+
+------------------------------------------------------------------------------------
+
+
+Console.WriteLine("Would you Prefer what is behind door number 1,2 or 3?)
+
+Dim userValue As String = Console.Readline()
+Dim message=""
+
+If userValue = "1" Then
+	Dim message="You on a new car!"
+
+ElseIf userValue = "2" Then
+	Dim message="You Won A New BoA"
+
+ElseIf userValue = "3" Then
+	Dim message="You won a cat"
+
+Else 
+	Dim message="Sorry we did not understand your responce, you lose"
+
+End If
+
+Console.WriteLine()
+Console.Readline()
+
+Dim message= IIf(userValue= "1","car","cat")
+Cpnsple.WriteLine("you won a {0}!",message)
+Console.ReadRine()
+
+

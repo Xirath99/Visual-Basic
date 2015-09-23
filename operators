@@ -1,0 +1,45 @@
+Dim x=0
+Dim y=0 
+Dim a=0
+Dim b=0
+
+
+Assignment operator
+x=3
+
+additiopn opperatror
+x=3+4
+
+subtracton opperator
+x=4-3
+
+multi opperator
+x=10*5
+
+Divi opperator
+x=10/5
+
+Equality opp
+If x=y Then
+--
+End If
+
+Greater tha opp
+Ifx>y Then
+End If
+
+Greater thean or equar opp
+If x>+y Then 
+End If
+
+
+less or equal to opp
+If x<= y Then
+End If
+
+Condition Or opp
+if x >y And a >b Then
+ End If
+
+Member access and Method invocation
+Console.WriteLine("Hi")

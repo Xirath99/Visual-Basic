@@ -1,0 +1,20 @@
+For index = 1 To 10
+	Console.writeline(index)
+ 	
+
+	If (index = 7) Then
+	   Console.WrirLine("Found Seven")
+	   Exit For
+        End If
+
+
+
+Next
+
+For i= 10 to 5 step -1
+	Console.Writeline(i)
+Next
+
+
+	
+	Console.Readline()
